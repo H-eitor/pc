@@ -1,0 +1,12 @@
+Q1) O início e fim de cada tarefa é independente. As duas tarefas executam simultâneamente, e a tarefa de configuração de logs
+termina durante a execução da tarefa de verificação de recursos.
+
+Q2) A alteração de "Thread-0" para "Setup-Logs" e "Thread-1" para "Check-Recursos" modifica o nome da atividade que é exibido no terminal.
+Isso impacta na depuração do código pois no auxilia na identificação da thread em execução.
+
+Q3) A thread main tem como finalidade apenas a criação das threads. Dessa forma, a execução da thread main é finalizada assim que
+todas as threads filhas são criadas.
+
+Q4) O fluxo de execução foi alterado pois a adição do join faz com que a thread pai aguarde o fim da execução das threads filhas para 
+prosseguir com a sua própria execução. Dessa forma, a thread main só encerra sua execução após o fim da execução das threads "Setup-Logs"
+e "Check-Recursos"

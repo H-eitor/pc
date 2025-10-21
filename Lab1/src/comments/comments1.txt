@@ -1,0 +1,3 @@
+O programa serial sempre apresenta a mesma ordem de execução, onde cada recurso é processado de forma sequencial.
+Dado que o tempo de setup é sempre de 4 segundos e o tempo de cada recurso varia de 1 a 3 segundos, o tempo mínimo 
+de execução total é de 9 segundos, enquanto o máximo é de 15 segundos.
