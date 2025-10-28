@@ -1,0 +1,3 @@
+Houve compartilhamento de memória entre as threads onde foi criado um array para armazenamento das maiores notas, sendo ele um atributo na 
+classe/struct Classes em python e c. Esta solução não leva a condições de corrida pois cada thread acessa e atualiza apenas a posição do array
+da respectiva turma através do class_id.

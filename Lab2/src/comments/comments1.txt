@@ -1,0 +1,1 @@
+Não, em ambas as linguagens a ordem de execução se manteve sequencial.
