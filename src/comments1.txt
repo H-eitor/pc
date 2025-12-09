@@ -1,0 +1,3 @@
+A solução pelo método de produtor e consumidor funciona para qualquer diferença entre o número de produtores e consumidores, onde
+os consumidores funcionam por efeito catraca ao término da produção. Quanto ao tamanho máximo do buffer, quando o número de produtores
+supera muito o número de consumidores, o tamanho máximo do buffer é ultrapassado de forma proporcional à quantidade de consumidores - 1.
